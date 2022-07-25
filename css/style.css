@@ -3,6 +3,54 @@
   background: #E5E5E5;
 }
 
+/* Muller-300 - light */
+@font-face {
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/MullerLight.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/MullerLight.woff') format('woff');
+  /* Modern Browsers */
+}
+
+/* Muller-regular - latin */
+@font-face {
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/MullerRegular.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/') format('woff');
+  /* Modern Browsers */
+}
+
+/* Muller-500 - latin */
+@font-face {
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/MullerMedium.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/MullerMedium.woff') format('woff');
+  /* Modern Browsers */
+}
+
+/* Muller-700 - latin */
+@font-face {
+  font-family: 'Muller';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/MullerBold.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/MullerBold.woff') format('woff');
+  /* Modern Browsers */
+}
+
+p {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -46,23 +94,41 @@ html {
   margin-right: 34px;
 }
 
+.header-phone {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1;
+  color: #666666;
+}
+
 .header-right {
   display: flex;
   align-items: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  padding-left: 30px;
+}
+
+.header-buttom {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
   color: #CC9933;
+}
+
+.header-buttom-icon {
+  display: inline-block;
+  width: 21px;
+  height: 12px;
+  margin-right: 7px;
   background-image: url('/1 HW/img/head/Vector.png');
   background-position: left center;
-  background-size: 21px 12px;
   background-repeat: no-repeat;
+  transform: translateY(-2px);
 }
 
 .header-bottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 70px;
   height: 70px;
   background: #FFFFFF;
   border-radius: 15px;
@@ -75,16 +141,25 @@ html {
 .header-nav-list {
   display: flex;
   align-items: center;
+  background: #FFFFFF;
 }
 
 .header-nav-item {
   margin-left: 45px;
+  background: #FFFFFF;
 }
 
+.header-nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #666666;
+}
 
 .header-buttom-list {
   display: flex;
   align-items: center;
+  background: #FFFFFF;
 }
 
 .header-buttom-item {
@@ -92,13 +167,22 @@ html {
   padding: 13px 20px;
   border: 1px solid #CC9933;
   border-radius: 10px;
-  color: #CC9933;
+  background: #FFFFFF;
 }
 
+.header-buttom-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #CC9933;
+}
 
 /* Hero */
 
 .section-heading {
+  margin: 0;
+  margin-left: 40px;
+  margin-bottom: 20px;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -108,32 +192,116 @@ html {
 
 .section-hero-list {
   display: flex;
-  flex-wrap: wrap;
+  margin-bottom: 70px;
+}
+
+.section-hero-left-list {
+  flex-basis: 50%;
+  margin-right: 12px;
+}
+
+.section-hero-right-list {
+  flex-basis: 50%;
+  margin-left: 12px;
 }
 
 .section-hero-item {
-  max-width: 573px;
-  max-height: 258px;
   margin-bottom: 24px;
-  border-radius: 15px;
-}
-
-.section-hero-item:not(:nth-child(2n)) {
-  margin-right: 24px;
 }
 
 .section-hero-item-1 {
   flex: 1 1 25%;
+  min-width: 573px;
+  min-height: 258px;
+  background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url('../img/спецпр/1.jpg');
+  background-size: 573px 258px;
+  border-radius: 15px;
 }
 
 .section-hero-item-2 {
   flex: 1 1 75%;
+  min-width: 573px;
+  min-height: 540px;
+  background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url('../img/спецпр/2.jpg');
+  background-repeat: no-repeat;
+  background-size: 573px 540px;
+  border-radius: 15px;
 }
 
 .section-hero-item-3 {
   flex: 1 1 25%;
+  min-width: 573px;
+  min-height: 258px;
+  background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url('../img/спецпр/3.jpg');
+  background-size: 573px 258px;
+  border-radius: 15px;
 }
 
+.section-hero-title {
+  display: inline-block;
+  margin: 40px 108px 15px 45px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  color: #FFFFFF;
+  background-color: transparent;
+}
+
+.section-hero-title-2 {
+  margin: 212px 229px 15px 45px;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.section-hero-price {
+  margin: 0;
+  margin-left: 45px;
+  margin-bottom: 47px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+  opacity: 0.8;
+  background-color: transparent;
+}
+
+.section-hero-price-2 {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.section-hero-link {
+  margin-left: 45px;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #F0BF5F;
+}
+
+.section-hero-icon {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  background-image: url('/1 HW/img/спецпр/Rectangle\ 2.svg');
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  transform: translateY(1px);
+}
+
+/* Us */
+
+.section-us-description {
+  max-width: 888px;
+  margin-bottom: 70px;
+}
+
+.section-us-description {
+font-weight: 400;
+font-size: 16px;
+line-height: 200%;
+}
 
 /* Service */
 
@@ -143,17 +311,53 @@ html {
 }
 
 .section-service-item {
-  flex: 0 1 50%;
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 50%;
   max-width: 573px;
-  max-height: 258px;
+  max-height: 330px;
   margin-bottom: 24px;
   border-radius: 15px;
+}
+
+.section-service-item-1{
+  background: url('../img/услуги/1.jpg');
+  background-size: contain;
+  /* background-size: 573px 165px; */
+  background-repeat: no-repeat;
 }
 
 .section-service-item:not(:nth-child(2n)) {
   margin-right: 24px;
 }
 
+.section-service-link{
+  display: block;
+  margin-top: 165px;
+  background-color: white;
+  background-size: 573px 165px;
+}
+
+.section-service-heading {
+  margin-top: 26px;
+  margin-left: 45px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 200%;
+  color: #CC9933;
+  background-color:transparent;
+}
+
+.section-service-description {
+  margin-left: 45px;
+  margin-bottom: 35px;
+  max-width: 402px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: #000000;
+  background-color:transparent;
+}
 
 /* Aantages */
 
