@@ -76,6 +76,15 @@ html {
   margin-left: auto;
 }
 
+.yallow-buttom-link {
+  padding: 13px 20px;
+  border: 1px solid #CC9933;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #CC9933;
+}
 
 /* Header  */
 
@@ -139,17 +148,9 @@ html {
   background: transparent;
 }
 
-.yallow-buttom-link {
+.header-buttom-link{
   margin-right: 45px;
-  padding: 13px 20px;
-  border: 1px solid #CC9933;
-  border-radius: 10px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
-  color: #CC9933;
 }
-
 
 .header-nav {
   display: flex;
@@ -436,6 +437,7 @@ line-height: 200%;
 .section-price-list {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 70px;
 }
 
 .section-price-item {
@@ -521,7 +523,6 @@ line-height: 200%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  /* align-items: flex-end; */
   background-image: url('../img/размещение/41.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -545,3 +546,174 @@ line-height: 200%;
   background-color: transparent;
   transform: translateY(-1px);
 }
+
+
+/* form */
+
+.form-container {
+  min-height: 256px;
+  background: #E9E9E9;
+  border-radius: 15px;
+  margin-bottom: 70px;
+}
+
+.section-heading-form {
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 45px;
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+
+.section-form-background  {
+  display: flex;
+  justify-content: center;
+  max-width: 1080px;
+  min-height: 106px;
+  margin: 45px;
+  margin-top: 0;
+  background: #FFFFFF;
+  border-radius: 15px;
+}
+
+.section-form-block{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1024px;
+  margin: 31px 28px 32px 28px;
+  background-color: transparent;
+}
+
+.section-form-item {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+
+.section-form-item:not(:last-child){
+  margin-right: 41px;
+}
+
+.section-form-input-left {
+  max-width: 169px;
+}
+
+.section-form-input-right {
+  max-width: 121px;
+}
+
+.section-form-lebel {
+  display: block;
+  margin-left: 2px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  background-color: transparent;
+}
+
+.section-form-input {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  background-color: transparent;
+  border: 0;
+}
+
+.section-form-buttom {
+  width: 108px;
+  height: 42px;
+  background-color: transparent;
+}
+
+
+/* contacts */
+
+.section-contacts-background{
+  background: #FFFFFF;
+  border-radius: 15px;
+}
+
+.section-contacts-block{
+  display: flex;
+  padding: 45px;
+  background: transparent;
+}
+
+.section-contacts-list{
+  flex-basis: 50%;
+  margin-right: 26px;
+  background: transparent;
+}
+
+.section-contacts-item{
+  display: flex;
+  max-width: 375px;
+  background: transparent;
+}
+
+.section-contacts-item:not(:first-child){
+  padding-top: 25px;
+}
+
+.section-contacts-item:not(:last-child){
+  padding-bottom: 23px;
+  border-bottom: 1px solid #E9E9E9;
+}
+
+.section-contacts-heading{
+  min-width: 145px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  background: transparent;
+}
+
+.section-contacts-info{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  background: transparent;
+}
+
+.yallow-nuber{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #CC9933;
+}
+
+.yallow-email{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #CC9933;
+}
+
+.section-contacts-info-desc{
+  font-size: 16px;
+  line-height: 150%;
+  color: #999999;
+  background: transparent;
+}
+
+.section-contacts-buttom{
+  width: 213px;
+  height: 70px;
+  margin-top: 24px;
+  background: transparent;
+}
+
+.section-contacts-img{
+  flex-basis: 50%;
+  margin-left: 26px;
+  max-width: 653px;
+  max-height: 528px;
+  border-radius: 10px;
+  background: transparent;
+}
+
+
+

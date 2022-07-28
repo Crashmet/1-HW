@@ -1111,41 +1111,59 @@
 
     <section class="section-form">
       <div class="container form-container">
-        <h2 class="section-heading">
+        <h2 class="section-heading section-heading-form">
           Хочу тур
         </h2>
-        <form action="https://jsonplaceholder.typicode.com/posts" autocomplete method="POST" class="form">
-          <label class="form-lebel">Город вылета<input list="city" type="text" name="city" placeholder="Санкт-Петербург" class="form-input" required></label>
-          <datalist id="city">
-            <option>Санкт - Петербург</option>
-            <option>Москва</option>
-            <option>Иваново</option>
-            <option>Ярославль</option>
-            <option>Казань</option>
-            <option>Уфа</option>
-          </datalist>
+        <div class="section-form-background">
+          <form action="https://jsonplaceholder.typicode.com/posts" autocomplete method="POST" class="section-form-block">
+            <div class="section-form-item">
+              <label class="section-form-lebel" for="form-city">Город вылета</label>
+              <input list="city" type="text" name="city" placeholder="Санкт-Петербург" class="section-form-input section-form-input-left" required id="form-city">
+              <datalist id="city">
+                <option>Санкт - Петербург</option>
+                <option>Москва</option>
+                <option>Иваново</option>
+                <option>Ярославль</option>
+                <option>Казань</option>
+                <option>Уфа</option>
+              </datalist>
+            </div>
 
-          <label class="form-lebel">Страна<input list="country" type="text" name="country" placeholder="Австралия" class="form-input" required></label>
-          <datalist id="country">
-            <option>Австралия</option>
-            <option>Австрия</option>
-            <option>Азербайджан</option>
-            <option>Албания</option>
-            <option>Барбадос</option>
-            <option>Бангладеш</option>
-            <option>Бразилия</option>
-          </datalist>
+            <div class="section-form-item">
+            <label class="section-form-lebel" for="form-country">Страна</label>
+            <input list="country" type="text" name="country" placeholder="Австралия" class="section-form-input section-form-input-left " required id="form-country">
+              <datalist id="country">
+                <option>Австралия</option>
+                <option>Австрия</option>
+                <option>Азербайджан</option>
+                <option>Албания</option>
+                <option>Барбадос</option>
+                <option>Бангладеш</option>
+                <option>Бразилия</option>
+              </datalist>
+            </div>
 
-          <label class="form-lebel">Дата прибытия<input type="date" name="date" placeholder="18.10.2021" class="form-input"></label>
+            <div class="section-form-item">
+              <label class="section-form-lebel" for="form-date">Дата прибытия</label>
+              <input type="date" name="date" placeholder="18.10.2021" value="18.10.2021" class="section-form-input section-form-input-right" id="form-date">
+            </div>
 
-          <label class="form-lebel">Ночей<input type="number" name="night" placeholder="6" class="form-input" required></label>
+            <div class="section-form-item">
+              <label class="section-form-lebel">Ночей</label>
+              <input type="number" name="night" placeholder="6" class="section-form-input section-form-input-right " required>
+            </div>
 
-          <label class="form-lebel">Туристы<input type="number" name="tourists" placeholder="2" class="form-input" required></label>
+            <div class="section-form-item">
+              <label class="section-form-lebel" for="form-tourists">Туристы</label>
+              <input type="number" name="tourists" placeholder="2" class="section-form-input section-form-input-right" required id="form-tourists">
+            </div>
 
-          <button type="submit" formtarget="_blank" class="section-form-buttom yallow-buttom-link">
-            Найти
-          </button>
-        </form>
+            <button type="submit" formtarget="_blank" class="section-form-buttom yallow-buttom-link">
+              Найти
+            </button>
+
+          </form>
+        </div>
       </div>
     </section>
 
@@ -1155,7 +1173,7 @@
           Контакты
         </h2>
         <div class="section-contacts-background">
-          <div class="section-contacts-info">
+          <div class="section-contacts-block">
             <ul class="section-contacts-list">
               <li class="section-contacts-item">
                 <strong class="section-contacts-heading">Адрес</strong>
@@ -1174,7 +1192,7 @@
               </li>
 
               <li class="section-contacts-item">
-                <strong class="section-contacts-heading">Телефоны</strong>
+                <strong class="section-contacts-heading">Email</strong>
                 <div class="section-contacts-info">
                   <a href="mailto:lg.oona@mail.rum" class="section-contacts-link yallow-email">lg.oona@mail.ru</a>
                   <br>
@@ -1204,7 +1222,7 @@
               </li>
             </ul>
 
-            <img src="../1 HW/img/контакты/Layer 2 1.jpg" alt="Ресепшен">
+            <img src="../1 HW/img/контакты/Layer 2 1.jpg" alt="Ресепшен" class="section-contacts-img">
           </div>
         </div>
       </div>
@@ -1255,7 +1273,6 @@
             <a href="" class="footer-social-link">
               <span class="footer-social-icon footer-social-icon-vk"></span>
             </a>
-            
           </li>
         </ul>
       </div>
