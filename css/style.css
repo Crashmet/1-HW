@@ -137,18 +137,18 @@ html {
   border-radius: 15px;
 }
 
-.header-buttom{
+.header-buttom {
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
   color: #CC9933;
 }
 
-.header-buttom-item{
+.header-buttom-item {
   background: transparent;
 }
 
-.header-buttom-link{
+.header-buttom-link {
   margin-right: 45px;
 }
 
@@ -225,7 +225,7 @@ html {
   flex: 1 1 75%;
   min-width: 573px;
   min-height: 540px;
-  background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url('../img/спецпр/2.jpg');
+  background: url('../img/спецпр/2.jpg');
   background-repeat: no-repeat;
   background-size: 573px 540px;
   border-radius: 15px;
@@ -301,9 +301,9 @@ html {
 }
 
 .section-us-description {
-font-weight: 400;
-font-size: 16px;
-line-height: 200%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
 }
 
 /* Service */
@@ -324,25 +324,25 @@ line-height: 200%;
   border-radius: 15px;
 }
 
-.section-service-item-1{
+.section-service-item-1 {
   background: url('../img/услуги/1.jpg');
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.section-service-item-2{
+.section-service-item-2 {
   background: url('../img/услуги/2.jpg');
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.section-service-item-3{
+.section-service-item-3 {
   background: url('../img/услуги/3.jpg');
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.section-service-item-4{
+.section-service-item-4 {
   background: url('../img/услуги/4.jpg');
   background-size: contain;
   background-repeat: no-repeat;
@@ -352,13 +352,13 @@ line-height: 200%;
   margin-right: 24px;
 }
 
-.section-service-link{
+.section-service-link {
   display: block;
   width: 573px;
   margin-top: 165px;
   background-color: white;
   background-size: 573px 165px;
-  border-radius:0px 0px 15px 15px ;
+  border-radius: 0px 0px 15px 15px;
 }
 
 .section-service-heading {
@@ -369,7 +369,7 @@ line-height: 200%;
   font-size: 20px;
   line-height: 200%;
   color: #CC9933;
-  background-color:transparent;
+  background-color: transparent;
 }
 
 .section-service-description {
@@ -380,10 +380,10 @@ line-height: 200%;
   font-size: 16px;
   line-height: 200%;
   color: #000000;
-  background-color:transparent;
+  background-color: transparent;
 }
 
-.section-service-icon{
+.section-service-icon {
   display: inline-block;
   width: 12px;
   height: 12px;
@@ -455,11 +455,11 @@ line-height: 200%;
   margin-right: 22px;
 }
 
-.section-price-img{
+.section-price-img {
   border-radius: 15px 15px 0 0;
 }
 
-.section-price-item-block{
+.section-price-item-block {
   margin: 45px;
   margin-top: 32px;
   background-color: transparent;
@@ -519,7 +519,7 @@ line-height: 200%;
   background-color: transparent;
 }
 
-.section-price-item-last{
+.section-price-item-last {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -565,7 +565,7 @@ line-height: 200%;
   background-color: transparent;
 }
 
-.section-form-background  {
+.section-form-background {
   display: flex;
   justify-content: center;
   max-width: 1080px;
@@ -576,7 +576,7 @@ line-height: 200%;
   border-radius: 15px;
 }
 
-.section-form-block{
+.section-form-block {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -591,7 +591,7 @@ line-height: 200%;
   background-color: transparent;
 }
 
-.section-form-item:not(:last-child){
+.section-form-item:not(:last-child) {
   margin-right: 41px;
 }
 
@@ -631,39 +631,40 @@ line-height: 200%;
 
 /* contacts */
 
-.section-contacts-background{
+.section-contacts-background {
   background: #FFFFFF;
   border-radius: 15px;
+  margin-bottom: 70px;
 }
 
-.section-contacts-block{
+.section-contacts-block {
   display: flex;
   padding: 45px;
   background: transparent;
 }
 
-.section-contacts-list{
+.section-contacts-list {
   flex-basis: 50%;
   margin-right: 26px;
   background: transparent;
 }
 
-.section-contacts-item{
+.section-contacts-item {
   display: flex;
   max-width: 375px;
   background: transparent;
 }
 
-.section-contacts-item:not(:first-child){
+.section-contacts-item:not(:first-child) {
   padding-top: 25px;
 }
 
-.section-contacts-item:not(:last-child){
+.section-contacts-item:not(:last-child) {
   padding-bottom: 23px;
   border-bottom: 1px solid #E9E9E9;
 }
 
-.section-contacts-heading{
+.section-contacts-heading {
   min-width: 145px;
   font-weight: 700;
   font-size: 20px;
@@ -671,42 +672,47 @@ line-height: 200%;
   background: transparent;
 }
 
-.section-contacts-info{
+.section-contacts-info {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   background: transparent;
 }
 
-.yallow-nuber{
+.yallow-nuber {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: #CC9933;
 }
 
-.yallow-email{
+.yallow-email {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: #CC9933;
+  background: transparent;
 }
 
-.section-contacts-info-desc{
+.section-contacts-info-desc {
   font-size: 16px;
   line-height: 150%;
   color: #999999;
   background: transparent;
 }
 
-.section-contacts-buttom{
+.section-contacts-form {
+  background: transparent;
+}
+
+.section-contacts-buttom {
   width: 213px;
   height: 70px;
   margin-top: 24px;
   background: transparent;
 }
 
-.section-contacts-img{
+.section-contacts-img {
   flex-basis: 50%;
   margin-left: 26px;
   max-width: 653px;
@@ -715,5 +721,101 @@ line-height: 200%;
   background: transparent;
 }
 
+/* Footer */
+.footer-container {
+  position: relative;
+  margin-bottom: 70px;
+  min-height: 341px;
+  display: flex;
+  background: #333333;
+  border-radius: 15px;
+}
 
+.footer-list {
+  display: flex;
+  max-width: 1080px;
+  margin: 45px;
+  background: transparent;
+}
 
+.footer-item {
+  flex: 0 0 33.33%;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+}
+
+.footer-left {
+  justify-content: space-between;
+  margin-right: 70px;
+}
+
+.footer-center {
+  min-width: 359px;
+  margin-right: 259px;
+  margin-bottom: 15px;
+  background: transparent;
+}
+
+.footer-right {
+  display: inline-block;
+  align-items: end;
+  margin-right: 0;
+  background: transparent;
+}
+
+.footer-copyrights {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 190%;
+  color: #FFFFFF;
+  background: transparent;
+}
+
+.section-contacts-link {
+  background: transparent;
+}
+
+.footer-social-list {
+  background: transparent;
+}
+
+.footer-social-item {
+  background: transparent;
+}
+
+.footer-social-icon {
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  background-color: transparent;
+}
+
+.footer-social-icon-tripadvisor {
+  background: url('../img/футер/tripadvisor.svg');
+}
+
+.footer-social-icon-ok {
+  background: url('../img/футер/ok.svg');
+}
+
+.footer-social-icon-vk {
+  background: url('../img/футер/vk.svg');
+}
+
+.footer-img {
+  position: absolute;
+  left: 739px;
+  top: 112px;
+  width: 254px;
+  height: 228px;
+  background-image: url('../img/футер/sun.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  background-color: transparent;
+}

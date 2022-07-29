@@ -1115,10 +1115,12 @@
           Хочу тур
         </h2>
         <div class="section-form-background">
-          <form action="https://jsonplaceholder.typicode.com/posts" autocomplete method="POST" class="section-form-block">
+          <form action="https://jsonplaceholder.typicode.com/posts" autocomplete method="POST"
+            class="section-form-block">
             <div class="section-form-item">
               <label class="section-form-lebel" for="form-city">Город вылета</label>
-              <input list="city" type="text" name="city" placeholder="Санкт-Петербург" class="section-form-input section-form-input-left" required id="form-city">
+              <input list="city" type="text" name="city" placeholder="Санкт-Петербург"
+                class="section-form-input section-form-input-left" required id="form-city">
               <datalist id="city">
                 <option>Санкт - Петербург</option>
                 <option>Москва</option>
@@ -1130,8 +1132,9 @@
             </div>
 
             <div class="section-form-item">
-            <label class="section-form-lebel" for="form-country">Страна</label>
-            <input list="country" type="text" name="country" placeholder="Австралия" class="section-form-input section-form-input-left " required id="form-country">
+              <label class="section-form-lebel" for="form-country">Страна</label>
+              <input list="country" type="text" name="country" placeholder="Австралия"
+                class="section-form-input section-form-input-left " required id="form-country">
               <datalist id="country">
                 <option>Австралия</option>
                 <option>Австрия</option>
@@ -1145,17 +1148,20 @@
 
             <div class="section-form-item">
               <label class="section-form-lebel" for="form-date">Дата прибытия</label>
-              <input type="date" name="date" placeholder="18.10.2021" value="18.10.2021" class="section-form-input section-form-input-right" id="form-date">
+              <input type="date" name="date" placeholder="18.10.2021" value="18.10.2021"
+                class="section-form-input section-form-input-right" id="form-date">
             </div>
 
             <div class="section-form-item">
               <label class="section-form-lebel">Ночей</label>
-              <input type="number" name="night" placeholder="6" class="section-form-input section-form-input-right " required>
+              <input type="number" name="night" placeholder="6" class="section-form-input section-form-input-right "
+                required>
             </div>
 
             <div class="section-form-item">
               <label class="section-form-lebel" for="form-tourists">Туристы</label>
-              <input type="number" name="tourists" placeholder="2" class="section-form-input section-form-input-right" required id="form-tourists">
+              <input type="number" name="tourists" placeholder="2" class="section-form-input section-form-input-right"
+                required id="form-tourists">
             </div>
 
             <button type="submit" formtarget="_blank" class="section-form-buttom yallow-buttom-link">
@@ -1216,9 +1222,12 @@
               </li>
 
               <li class="section-contacts-item">
-                <button type="submit" formtarget="_blank" class="section-contacts-buttom yallow-buttom-link">
-                  Построить маршрут
-                </button>
+                <form action="https://jsonplaceholder.typicode.com/posts" autocomplete method="POST"
+                  class="section-contacts-form">
+                  <button type="submit" formtarget="_blank" class="section-contacts-buttom yallow-buttom-link">
+                    Построить маршрут
+                  </button>
+                </form>
               </li>
             </ul>
 
@@ -1231,51 +1240,54 @@
 
   <footer class="footer">
     <div class="container footer-container">
-      <div class="footer-left">
-        <p class="footer-copyrights footer-copyrights-1">
-        © 2012–2020 Управляющая компания Объединённой сети «Лагуна Хотелс»
-        </p>
-        <p class="footer-copyrights footer-copyrights-2">
-          Представленная на сайте информация носит справочный характер и не является публичной офертой
-        </p>copyrights
-        <a href="http://" target="_blank" class="footer-copyrights-link">Пользовательское соглашение</a>
-      </div>
+      <ul class="footer-list">
+        <li class="footer-item footer-left">
+          <p class="footer-copyrights">
+            © 2012–2020 Управляющая компания Объединённой сети «Лагуна Хотелс»
+          </p>
+          <p class="footer-copyrights">
+            Представленная на сайте информация носит справочный характер и не является публичной офертой
+          </p>
+          <a href="http://" target="_blank" class="footer-copyrights-link yallow-nuber">Пользовательское соглашение</a>
+        </li>
 
-      <div class="footer-center">
-        <p class="footer-copyrights footer-copyrights-3">
-          11710, улица Юности, дом 5 строение 4, офис 2
-        </p>
-        <div class="footer-contacts-number">
-          <a href="tel:+74995356434" class="section-contacts-link yallow-nuber">+7 499 535-64-34</a>
-          <br>
-          <a href="tel:+74950050544" class="section-contacts-link yallow-nuber">+7 495 005-05-44</a>
-        </div>
-        <div class="section-contacts-email">
-          <a href="mailto:lg.oona@mail.rum" class="section-contacts-link yallow-email">lg.oona@mail.ru</a>
-          <br>
-          <a href="mailto:hotels.ln@mail.ru" class="section-contacts-link yallow-email">hotels.ln@mail.ru</a>
-        </div>
-      </div>
+        <li class="footer-item footer-center">
+          <p class="footer-copyrights footer-center">
+            11710, улица Юности, дом 5 строение 4, офис 2
+          </p>
+          <div class="footer-contacts-number footer-center">
+            <a href="tel:+74995356434" class="section-contacts-link yallow-nuber">+7 499 535-64-34</a>
+            <br>
+            <a href="tel:+74950050544" class="section-contacts-link yallow-nuber">+7 495 005-05-44</a>
+          </div>
+          <div class="section-contacts-email footer-center">
+            <a href="mailto:lg.oona@mail.rum" class="section-contacts-link yallow-email">lg.oona@mail.ru</a>
+            <br>
+            <a href="mailto:hotels.ln@mail.ru" class="section-contacts-link yallow-email">hotels.ln@mail.ru</a>
+          </div>
+        </li>
 
-      <div class="footer-right">
-        <ul class="footer-social-list">
-          <li class="footer-social-item">
-            <a href="" class="footer-social-link">
-              <span class="footer-social-icon footer-social-icon-tripadvisor"></span>
-            </a>
-          </li>
-          <li class="footer-social-item">
-            <a href="" class="footer-social-link">
-              <span class="footer-social-icon footer-social-icon-Odnkls"></span>
-            </a>
-          </li>
-          <li class="footer-social-item">
-            <a href="" class="footer-social-link">
-              <span class="footer-social-icon footer-social-icon-vk"></span>
-            </a>
-          </li>
-        </ul>
-      </div>
+        <li class="footer-item footer-right">
+          <ul class="footer-social-list">
+            <li class="footer-social-item">
+              <a href="" class="footer-social-link">
+                <span class="footer-social-icon footer-social-icon-tripadvisor"></span>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a href="" class="footer-social-link">
+                <span class="footer-social-icon footer-social-icon-ok"></span>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a href="" class="footer-social-link">
+                <span class="footer-social-icon footer-social-icon-vk"></span>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <span class="footer-img"></span>
     </div>
   </footer>
 </body>
